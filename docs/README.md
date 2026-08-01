@@ -1,12 +1,19 @@
 # OctoAcme Project Management Docs
 
-This folder contains OctoAcme's project management process documentation. These documents describe how we start, plan, deliver, release, and continuously improve projects so contributors and stakeholders can quickly find and apply our standard practices.
+This folder contains OctoAcme's project management process documentation. These documents describe how we start, plan, deliver, release, and continuously improve projects so contributors and stakeholders can find and follow processes consistently.
 
-OctoAcme follows a lightweight, stage-based lifecycle: Initiation (capture problem statements, stakeholders, and a Project One‑pager), Planning (backlog creation, estimates, Definition of Done, and release/milestone mapping), Execution (iterative delivery via a project board and small, reviewable PRs), Release (checklists, smoke tests, and rollback plans), and Close (retrospectives and tracked action items). Key artifacts such as the Project One‑pager, acceptance criteria on backlog items, the risk register, and release notes keep decisions and status transparent.
+OctoAcme follows a lightweight, stage-based lifecycle:
 
-Workflows emphasize predictable, incremental delivery and clear handoffs: use a project board with Backlog → Ready → In Progress → In Review → QA → Done, keep pull requests small and linked to issues with acceptance criteria, and require passing CI and at least one approval before merging. Risk and dependency management are explicit — maintain a simple risk register that includes owner and mitigation, and escalate cross-team dependencies in weekly syncs.
+- Project Initiation: capture problem statements, goals, stakeholders, and success criteria.
+- Project Planning: backlog creation, estimates, Definition of Done, and role assignments.
+- Execution & Tracking: deliver in tracked iterations with a clear workflow and milestone monitoring.
+- Risks & Communication: identify risks, set escalation paths, and maintain stakeholder updates.
+- Release & Deployment: define release checklists and deployment steps.
+- Retrospective & Continuous Improvement: run retrospectives, track action items, and iterate on processes.
 
-Roles and communication are well-defined to reduce ambiguity. A named Project Manager coordinates delivery and communications while the Product Manager owns outcomes and success metrics. Developers, QA, and stakeholders collaborate through daily standups, weekly delivery syncs, sprint demos, and regular stakeholder updates. Quality assurance combines automated unit/integration tests, CI security scans, end-to-end smoke tests for critical flows, and manual QA when required. See the individual docs below for full details.
+Workflows emphasize predictable, incremental delivery and clear handoffs: use a project board with Backlog → Ready → In Progress → In Review → QA → Done, keep pull requests small, and link PRs to the relevant project card.
+
+Roles and communication are well-defined to reduce ambiguity. A named Project Manager coordinates delivery and communications, the Product Manager owns outcomes and success metrics, and Engineering leads review technical approach and quality.
 
 ## Docs (links)
 - [Overview](docs/octoacme-project-management-overview.md)
@@ -21,3 +28,7 @@ Roles and communication are well-defined to reduce ambiguity. A named Project Ma
 ## How to contribute
 - Propose edits as pull requests against the corresponding doc in docs/.
 - For new process docs, create a file in docs/ and request this README be updated to include the link.
+
+---
+
+This change addresses issue #2 and adds a README that centralizes the OctoAcme project management docs.
